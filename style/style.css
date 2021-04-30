@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 320px;
+}
+
+/*hugatsaa*/
+/*Menu header*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+header a {
+  font-style: none;
+}
+
+header a i {
+  color: #6b46f3;
+}
+
+header a i:hover {
+  color: #224de8;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: #6b46f3;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header a {
+  font-style: none;
+}
+
+.header a i {
+  margin: 1rem;
+  color: #fff;
+}
+
+.header a i:hover {
+  color: #224de8;
+}
+
+.header p {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.main {
+  margin: auto;
+  text-align: start;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.main p {
+  text-transform: uppercase;
+  color: #909090;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.main p:hover {
+  color: #fff;
+  background-color: #6b46f3;
+}
+
+.zar {
+  margin-top: 1rem;
+  width: 80%;
+  padding: 2rem;
+  margin: auto;
+}
+
+.zar .zar_container {
+  height: 25vh;
+  width: 100%;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#224de8), to(#6b46f3));
+  background: linear-gradient(to bottom, #224de8, #6b46f3);
+  color: #fff;
+}
+
+.zar .zar_container .photo {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.zar .zar_container .photo img {
+  width: 80px;
+  position: absolute;
+  top: 63%;
+  left: 42%;
+}
+
+.zar .zar_container .photo .photo_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.zar .zar_container .photo .photo_logo i {
+  border: 1px solid #fff;
+  padding: .5rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.zar .zar_container .photo .photo_logo p {
+  padding-top: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.zar .zar_container .sonsoh {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.zar .zar_container .sonsoh p {
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.zar .zar_container .sonsoh .btn {
+  text-transform: uppercase;
+  font-size: 10px;
+  background-color: #e0555c;
+  padding: .5rem .8rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.container {
+  margin: auto;
+  max-width: 90%;
+}
+
+.container .search {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .search input {
+  border: 1px solid #d1d6db;
+  border-right: none;
+  padding: .8rem 5rem;
+  padding-left: 5px;
+}
+
+.container .search i {
+  font-size: 12px;
+  padding: .9rem 1rem;
+  border: 1px solid #d1d6db;
+  border-left: none;
+  color: #6b46f3;
+}
+
+.container .search i:hover {
+  color: #fff;
+}
+
+.container .contents {
+  width: 90%;
+  margin: auto !important;
+  /*height: 17vh !important;
+            margin: .5rem 0;*/
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 125px 1fr;
+      grid-template-columns: 125px 1fr;
+  -ms-grid-rows: (100px)[4];
+      grid-template-rows: repeat(4, 100px);
+  gap: 10px;
+}
+
+.container .contents .image {
+  /*width: 125px;
+                height: 100px;*/
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 1rem;
+  /*margin: 10px 0;
+                margin-right: 5px;*/
+  border-radius: 5px;
+}
+
+.container .contents .image i {
+  position: relative;
+  left: 90px;
+  color: #6b46f3;
+}
+
+.container .contents .headers {
+  /*height: 100px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .contents .headers h6 {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .contents .headers .calen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .contents .headers .calen i {
+  margin: .5rem .3rem;
+  color: #224de8;
+  font-size: 11px;
+}
+
+.container .contents .headers .calen p {
+  font-size: 11px;
+  color: #909090;
+}
+
+.container .contents .headers .ehSurvalj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .contents .headers .ehSurvalj p {
+  font-size: 11px;
+  color: #224de8;
+  font-weight: 500;
+}
+
+.container .contents .headers .ehSurvalj i {
+  margin-left: 10px;
+  margin-right: 2px;
+  font-size: 13px;
+  color: #d0232d;
+}
+
+.container .contents .headers .ehSurvalj p > b {
+  text-transform: uppercase;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */

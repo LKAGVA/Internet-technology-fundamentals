@@ -1,0 +1,12 @@
+@mixin flexDirection($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: $justify;
+}
+@mixin backImage {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

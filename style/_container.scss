@@ -1,0 +1,98 @@
+.container {
+        margin: auto;
+        max-width: 90%;
+        .search {
+            max-width: 90%;
+            margin: auto;
+            margin-top: 5px;
+            margin-bottom: 1rem;
+            @include flexDirection(row, center);
+            input {
+                border: 1px solid $brColor;
+                border-right: none;
+                padding: .8rem 5rem;
+                padding-left: 5px;
+            }
+            i {
+                font-size: 12px;
+                padding: .9rem 1rem;
+                border: 1px solid $brColor;
+                border-left: none;
+                color: $main1;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        .contents {
+            width: 90%;
+            margin: auto !important;
+            /*height: 17vh !important;
+            margin: .5rem 0;*/
+            display: grid;
+            grid-template-columns: 125px 1fr;
+            grid-template-rows: repeat(4, 100px);
+            gap: 10px;   
+            .image {
+                /*width: 125px;
+                height: 100px;*/
+                @include backImage;
+                padding-top: 1rem;
+                /*margin: 10px 0;
+                margin-right: 5px;*/
+                border-radius: 5px;
+                i {
+                    position: relative;
+                    left: 90px;
+                    color: $main1;
+                }  
+            }
+            .headers {
+                /*height: 100px;*/
+                @include flexDirection(column, space-between);
+                align-items: flex-start;
+                h6 {
+                    margin-top: 10px;
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-family: Arial, Helvetica, sans-serif
+                }
+                .calen {
+                    @include flexDirection(row, flex-start);
+                    i {
+                        margin: .5rem .3rem;
+                        color: $ehSurvalj;
+                        font-size: 11px;
+                    }
+                    p {
+                        font-size: 11px;
+                        color: $text;
+                    }
+                }
+                .ehSurvalj {
+                    display: flex;
+                    p {
+                        font-size: 11px;
+                        color: $ehSurvalj;
+                        font-weight: 500;
+                    }
+                    i {
+                        margin-left: 10px;
+                        margin-right: 2px;
+                        font-size: 13px;
+                        color: #d0232d;
+                    }
+                    p>b {
+                        text-transform: uppercase;
+                        color: #000;
+                    }
+                }
+            }
+        
+        }
+
+
+
+
+   
+}
